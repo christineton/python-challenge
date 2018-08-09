@@ -1,16 +1,16 @@
 import os
 import csv
 
-# Path to collect data from Resources folder
+# Path to collect data from folder
 budget_dataCSV = os.path.join('budget_data.csv')
 
 
 # Calculate the following
 # The total number of months included in the dataset (done)
 # The total net amount of "Profit/Losses" over the entire period (done)
-# The average change in "Profit/Losses" between months over the entire period
-# The greatest increase in profits (date and amount) over the entire period
-# The greatest decrease in losses (date and amount) over the entire period
+# The average change in "Profit/Losses" between months over the entire period (done)
+# The greatest increase in profits (date and amount) over the entire period (done)
+# The greatest decrease in losses (date and amount) over the entire period (done)
 
 # Opening csv file as read and calling it csvfile
 with open(budget_dataCSV, 'r') as csvfile:
